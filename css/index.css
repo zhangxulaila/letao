@@ -1,0 +1,191 @@
+.viewport{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom:50px;
+    overflow: hidden;
+}
+/*版心*/
+.w{
+    width: 90%;
+    margin: 0 auto;
+}
+/*搜索栏*/
+.searches{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    background-color: #006699;
+}
+.searches .wz{
+    display: block;
+    position: absolute;
+    top:10px;
+    left: 150px;
+    color:#fff;
+    font-size: 20px;
+}
+
+.searches .search-icon{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+/*内容部分*/
+.container{
+    width: 100%;
+}
+.container li img{
+    margin-top:45px ;
+    width: 100%;
+}
+.container .nav{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.container .nav ul{
+    width: 100%;
+}
+.container .nav li{
+    width: 33.3333%;
+    float: left;
+}
+.container .nav li img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+}
+/*active部分*/
+.active{
+    width: 100%;
+}
+.active .left{
+    width: 70%;
+    float: left;
+}
+.left  img{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.left .b img{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.right img{
+    float: right;
+    width: 30%;
+}
+/*title开始*/
+.title{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.title .title_pp img{
+    display: block;
+    padding-top: 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+.title .banner{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.title .banner ul{
+    width: 100%;
+}
+.title .banner li{
+    width: 33.3333%;
+    float: left;
+}
+.title .banner li img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.title .title_yd img{
+    display: block;
+    padding-top: 5px;
+    width: 90%;
+    float: left;
+    margin: 35px 18px;
+}
+/* */
+/*鞋子开始*/
+.shoes{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.shoes .shoes_r{
+    width: 46%;
+    float: left;
+    border: 1px solid #e9e9e9;
+    margin-right: 10px;
+}
+.shoes .shoes_r img{
+    width: 100%;
+}
+.shoes .shoes_r p{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color:#666;
+}
+.shoes .shoes_r .price{
+    
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+
+}
+.shoes .price span{
+    text-align: center;
+    color:red;
+}
+.shoes .price del{
+    text-align: center;
+    color:#ccc;
+}
+.shoes .shoes_r .mai{
+    width: 70px;
+    height: 30px;
+    background-color: #006699;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    color:#fff;
+    border-radius: 5%;
+}
+/*底部开始*/
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #006699;
+}
+.footer ul{
+    width: 100%;
+}
+.footer li{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 15px;
+}
